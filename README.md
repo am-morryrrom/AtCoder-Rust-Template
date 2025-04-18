@@ -1,0 +1,1 @@
+# AtCoder-Rust-Template
