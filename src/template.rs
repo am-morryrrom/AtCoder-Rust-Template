@@ -1,12 +1,14 @@
 use proconio::input;
 
+#[allow(unused_variables)]
+#[allow(non_snake_case)]
 fn main() {
     input! {
-        a: i32,
-        bc: [i32; 2],
-        s: String
+        A: i32,
+        BC: [i32; 2],
+        S: String
     }
-    println!("{} {}", a + bc[0] + bc[1], s);
+    println!("{} {}", A + BC[0] + BC[1], S);
 }
 
 #[cfg(test)]
